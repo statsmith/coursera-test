@@ -1,49 +1,31 @@
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6,
-  .col-md-12 {
-    float: left;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .col-sm-12 {
-    float: left;
-    width: 100%;
-  }
+* {
+  box-sizing: border-box;
 }
 
 div {
-  margin-bottom: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
 }
 
 section {
-  border: 2px solid black;
+  border: 1px solid #000000;
   background-color: #ffe8d0;
   color: #777777;
-  box-sizing: border-box;
   position: relative;
-  padding: 70px;
+  padding: 50px;
+  margin: 5px;
 }
 
 .section-title {
   position: absolute;
-  top: -24px;
+  top: -23px;
   right: 0px;
   padding: 2px;
-  border: 2px solid black;
+  border: 1px solid black;
   color: #000000;
 }
 
@@ -58,3 +40,31 @@ section {
 #st3 {
   background-color: #ffb1b1;
 }
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 32%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 45%;
+  }
+  .col-md-12 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
